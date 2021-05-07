@@ -1,0 +1,12 @@
+{
+    "name": "mixas/sender",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "mixas",
+            "email": "mikheili.abramiani@gmail.com"
+        }
+    ],
+    "require": {}
+}
