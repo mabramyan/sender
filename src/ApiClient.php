@@ -3,11 +3,15 @@
 
 namespace SenderNet;
 
-use SenderNet\Api\Campaign;
+use SenderNet\Api\CampaignApi;
 
 
 class ApiClient extends Configuration
 {
+    public function __construct($token = null)
+    {
+        parent::__construct($token);
+    }
 
 
     public function senderGetBaseArguments()
